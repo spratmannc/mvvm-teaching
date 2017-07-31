@@ -3,7 +3,7 @@
 In the included code, the problems introduced by the MVC example are solved:
 
 ### PROBLEM #1: Dependency Entourage
-Unit testing is enabled by isolating the [SearchForm](business/searchform.ts) to its own business object.  Since the business object has no dependencies on the DOM, Window, or even Angular itself, it can be thoroughly exercised in a [set of unit tests](test/searchform.ts) that can run quickly in a CI process.
+Unit testing is enabled by isolating the [SearchForm](business/SearchForm.ts) to its own business object.  Since the business object has no dependencies on the DOM, Window, or even Angular itself, it can be thoroughly exercised in a [set of unit tests](test/searchform.ts) that can run quickly in a CI process.
 
 ### PROBLEM #2: Responsibilities
 ### PROBLEM #4: Business logic intermingled with DOM manipulation
