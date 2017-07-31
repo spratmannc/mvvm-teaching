@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Contrived Search Box Example</h2>
+                <p>As soon as the search box contains the word <em>And</em>, the below search boxes should disable. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="" id="main">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="mainSearch">Main Search Box</label>
+                                <input type="text" class="form-control main" id="mainSearch" placeholder="main search form">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="and1">First AND term</label>
+                                <input type="text" class="form-control and" id="and1" placeholder="AND term #1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="and2">Second AND term</label>
+                                <input type="text" class="form-control and" id="and2" placeholder="AND term #2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="and3">Third AND term</label>
+                                <input type="text" class="form-control and" id="and3" placeholder="AND term #3">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- MVC -->
+    <script src="node_modules/underscore/underscore.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/backbone/backbone.js"></script>
+    <script src="src/mvc/main.js"></script>
+
+    <!-- Angular MVVM -->
+
+</body>
+
+</html>
